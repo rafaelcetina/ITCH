@@ -21,7 +21,7 @@
 <link rel="icon" type="image/png" href="images/splash/favicon-16x16.png" sizes="16x16">
 <link rel="shortcut icon" href="images/splash/favicon.ico" type="image/x-icon" /> 
     
-<title>ITCH - ITIC</title>
+<title>Epsilon 4.0</title>
 
 <link href="styles/style.css"           rel="stylesheet" type="text/css">
 <link href="styles/framework.css"       rel="stylesheet" type="text/css">
@@ -39,10 +39,9 @@
 <div id="preloader">
 	<div id="status">
         <div class="preloader-logo"></div>
-        <h3 class="center-text">Bienvenido!</h3>
+        <h3 class="center-text">Welcome</h3>
         <p class="center-text smaller-text">
-            Cargando información, no tomará mucho tiempo!
-            <!-- We're loading the content, give us a second. This won't take long! -->
+            We're loading the content, give us a second. This won't take long!
         </p>
     </div>
 </div>
@@ -53,7 +52,7 @@
     <a class="open-left-sidebar" href="#"><i class="fa fa-navicon"></i></a>
     <a class="header-logo" href="index.html"></a>
     <a class="open-right-sidebar" href="#"><i class="fa fa-envelope-o"></i></a>
-</div> 
+</div>    
             
 <!-- Ball Footer Menu -->
 
@@ -117,9 +116,9 @@
                         <strong>6</strong>
                     </a> 
                     <div class="submenu submenu-active">
-                        <a class="submenu-item" href="index.html">      <i class="fa fa-angle-right"></i><em>   Classic Slider    </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item submenu-item-active" href="index.html">      <i class="fa fa-angle-right"></i><em>   Classic Slider    </em><i class="fa fa-circle"></i></a>
                         <a class="submenu-item" href="index2.html">     <i class="fa fa-angle-right"></i><em>   Material Slider     </em><i class="fa fa-circle"></i></a>
-                        <a class="submenu-item submenu-item-active" href="index3.html">     <i class="fa fa-angle-right"></i><em>   Circle Slider     </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index3.html">     <i class="fa fa-angle-right"></i><em>   Circle Slider     </em><i class="fa fa-circle"></i></a>
                         <a class="submenu-item" href="index4.html">     <i class="fa fa-angle-right"></i><em>   Fullscreen Slider    </em><i class="fa fa-circle"></i></a>
                         <a class="submenu-item" href="index5.html">     <i class="fa fa-angle-right"></i><em>   Simple Image    </em><i class="fa fa-circle"></i></a>
                         <a class="submenu-item" href="index6.html">     <i class="fa fa-angle-right"></i><em>   Landing  Thumbs    </em><i class="fa fa-circle"></i></a>
@@ -415,29 +414,30 @@
             <div class="header-clear-large"></div>
             <!--Page content goes here, fixed elements go above the all elements class-->
                 
-                <div class="circle-slider-controls">
-                    <a href="#" class="circle-slider-ball-left"><i class="fa fa-angle-right"></i></a>
-                    <a href="#" class="circle-slider-ball-right"><i class="fa fa-angle-left"></i></a>
-                    <div class="circle-slider no-bottom" data-snap-ignore="true">
-                        <div>
-                            <img src="images/slider/1.jpg" alt="img">
-                            <h1>Welcome to Matter</h1>
-                            <em class="text-red1 half-bottom">A creative, mobile and tablet template!</em>
-                        </div>        
-                        <div>
-                            <img src="images/slider/2.jpg" alt="img">
-                            <h1>It's packed with features</h1>
-                            <em class="text-red1 half-bottom">Mobile, tablet, and app specific styled!</em>
-                        </div>        
-                        <div>
-                            <img src="images/slider/3.jpg" alt="img">
-                            <h1>PhoneGap & Cordova</h1>
-                            <em class="text-red1 half-bottom">Ready to be converted into a native app!</em>
+                <div class="homepage-slider full-bottom">
+                    <div class="homepage-slider-transition" data-snap-ignore="true">
+                        <div class="homepage-slider-item">
+                            <h5 class="left-text">Welcome, stranger</h5>
+                            <p class="left-text">Swipe the image to begin.</p>
+                            <img src="images/pictures/4.jpg" alt="img">
+                            <div class="overlay bg-black"></div>
+                        </div>                
+                        <div class="homepage-slider-item">
+                            <h5 class="center-text">This slider has CSS3 transitions</h5>
+                            <p class="center-text">And they are just awesome!</p>
+                            <img src="images/pictures/5.jpg" alt="img">
+                            <div class="overlay bg-black"></div>
+                        </div>                
+                        <div class="homepage-slider-item">
+                            <h5 class="right-text">Just add a simple class</h5>
+                            <p class="right-text">And you got yourself transitions!</p>
+                            <img src="images/pictures/6.jpg" alt="img">
+                            <div class="overlay bg-black"></div>
                         </div>
-                    </div> 
-                </div>
-
-
+                    </div>
+                    <a href="#" class="next-home-slider"><i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="prev-home-slider"><i class="fa fa-angle-left"></i></a>
+                </div>   
                 
                 <div class="container material-container">
                     <h4>Welcome</h4>
@@ -578,7 +578,6 @@
     
 <!--Fly up share box and notifications go here -->
 <!--These are the only features that should be placed outside the all-elements class-->
-    
 <div class="share-bottom">
     <h3>Let's get social!</h3>
     <div class="share-socials-bottom">
