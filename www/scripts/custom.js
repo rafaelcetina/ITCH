@@ -1021,6 +1021,9 @@ $( document ).ready(function() {
             touchToDrag: false
         });        
     }; 
+
+
+    
         
 });
 

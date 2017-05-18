@@ -27,6 +27,7 @@
 <link href="styles/framework.css"       rel="stylesheet" type="text/css">
 <link href="styles/font-awesome.css"    rel="stylesheet" type="text/css">
 <link href="styles/animate.css"         rel="stylesheet" type="text/css">
+<link href="styles/custom.css"         rel="stylesheet" type="text/css">
 
 <script type="text/javascript" src="scripts/jquery.js"></script>
 <script type="text/javascript" src="scripts/jqueryui.js"></script>
@@ -58,62 +59,19 @@
         <div class="decoration"></div>
     </div>
     <!-- Left Top Menu -->
-    <ul>
-        <li>
-            <a href="index.html">
-                <i class="fa fa-home bg-red-dark"></i>
-                <em>Inicio</em>
-            </a>
-        </li>        
-        <li>
-            <a href="test.html">
-                <i class="fa fa-info bg-green-dark"></i>
-                <em>Info</em>
-            </a>
-        </li>        
-        <li>
-            <a href="list-gallery.html">
-                <i class="fa fa-camera bg-blue-dark"></i>
-                <em>Galeria</em>
-            </a>
-        </li>        
-        <li>
-            <a href="list-portfolio.html">
-                <i class="fa fa-image bg-magenta-dark"></i>
-                <em>Proyectos</em>
-            </a>
-        </li>        
-        <li>
-            <a href="list-features.html">
-                <i class="fa fa-child bg-orange-dark"></i>
-                <em>Alumnos</em>
-            </a>
-        </li>        
-        <li>
-            <a href="list-features.html">
-                <i class="fa fa-file-o bg-teal-dark"></i>
-                <em>Plan de estudio</em>
-            </a>
-        </li>        
-        <li>
-            <a href="test.html">
-                <i class="fa fa-pencil bg-night-dark"></i>
-                <em>Test Vocacional</em>
-            </a>
-        </li>        
-        <li>
-            <a href="page-videos.html">
-                <i class="fa fa-youtube-play bg-yellow-dark"></i>
-                <em>Videos</em>
-            </a>
-        </li>        
-        <li>
-            <a href="list-contact.html">
-                <i class="fa fa-envelope-o bg-blue-dark"></i>
-                <em>Contáctanos</em>
-            </a>
-        </li>
-    </ul>    
+    <div class="row">
+        <div id="quiz">
+          <h1 id="quiz-name"></h1>
+          <button id="submit-button">Submit Answers</button>
+          <button id="next-question-button">Next Question</button>
+          <button id="prev-question-button">Previous</button>
+          
+          <div id="quiz-results">
+            <p id="quiz-results-message"></p>
+            <p id="quiz-results-score"></p>
+          </div>
+        </div>
+    </div>
     <div class="clear"></div>
     <div class="content"><div class="decoration"></div></div>
     <div class="footer">
